@@ -15,8 +15,12 @@
         <!-- Project content -->
     </main>
     <footer>
-        <p>Developed by <a href="#">AUTHOR</a> YEAR</p>
+        <p id="copyright">Developed by <a href="#">[AUTHOR]</a></p>
     </footer>
+    <script>
+        const currentYear = (new Date()).getFullYear();
+        document.getElementById("copyright").innerText += " "+currentYear;
+    </script>
     <script src="js/main.js"></script>
         <!-- CDN Freecodecamp test -->
 </body>
