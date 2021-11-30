@@ -1,0 +1,22 @@
+{
+  "name": "freecodecamp-choropleth-chart",
+  "version": "1.0.0",
+  "description": "Fourth project to Data Visualization course in [Freecodecamp][fcc].\r The challenge consists in render a choropleth map chart with data from two API using [Data-Driven Documents(D3)][D3] library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabit690/freecodecamp-choropleth-chart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabit690/freecodecamp-choropleth-chart/issues"
+  },
+  "homepage": "https://github.com/gabit690/freecodecamp-choropleth-chart#readme",
+  "dependencies": {
+    "d3": "^7.1.1"
+  }
+}
